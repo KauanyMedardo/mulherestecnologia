@@ -99,10 +99,6 @@ button{
     margin-bottom: 20px;
 }
 
-.menu{
-    background-color: rgb(204, 103, 179) ;
-}
-
 .imagem-chamada{
     flex: 1 1 45%;
     text-align: center;
