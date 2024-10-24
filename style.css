@@ -1,9 +1,12 @@
-/* Melhorar o visual do body */
+/* Configuração geral do body */
 body { 
     background-color: #f0f0f5; /* Cor de fundo suave */
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Estilizar o cabeçalho */
@@ -13,7 +16,12 @@ header {
     padding: 40px;
     text-align: center;
     font-size: 2.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Deixar o conteúdo ocupando espaço flexível */
+.content {
+    flex: 1; /* O conteúdo se ajusta para preencher a tela */
 }
 
 /* Estilizar o menu de navegação */
@@ -43,7 +51,7 @@ nav li a {
 }
 
 nav li a:hover {
-    transform: scale(1.1); /* Efeito ao passar o mouse */
+    transform: scale(1.1);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -57,7 +65,7 @@ nav li img {
 }
 
 nav li img:hover {
-    transform: scale(1.05); /* Ampliar um pouco a imagem ao passar o mouse */
+    transform: scale(1.05);
 }
 
 /* Footer mais elegante */
@@ -84,7 +92,7 @@ footer h2 {
 }
 
 footer ul li b {
-    color: rgb(173, 58, 145); /* Destaque para informações */
+    color: rgb(173, 58, 145);
 }
 
 /* Botões */
@@ -101,7 +109,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(104, 12, 55); /* Mudar cor ao passar o mouse */
+    background-color: rgb(104, 12, 55);
 }
 
 /* Estilização para títulos e textos */
