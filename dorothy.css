@@ -14,27 +14,23 @@ header {
     display: block;
 
 }
-
-
 .buttonClass {
-    font-size:15px;
-    font-family:Arial;
-    width:140px;
-    height:50px;
-    border-width:1px;
-    color:#ffffff;
-    border-color:#ee1eb5;
-    font-weight:bold;
-    border-top-left-radius:6px;
-    border-top-right-radius:6px;
-    border-bottom-left-radius:6px;
-    border-bottom-right-radius:6px;
-    box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    text-shadow:inset 0px 1px 0px #c70067;
-    background:linear-gradient(#ff5bb0, #ef027d);
-  }
-  
-  .buttonClass:hover {
-    background: linear-gradient(#ef027d, #ff5bb0);
-  }
-                
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #ee1eb5;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 8px; /* Rounding corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0px 1px 0px #fbafe3; /* Enhanced shadow */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Softer text shadow */
+    background: linear-gradient(135deg, #ff5bb0, #ef027d); /* Diagonal gradient */
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    cursor: pointer; /* Pointer on hover */
+}
+
+.buttonClass:hover {
+    background: linear-gradient(135deg, #ef027d, #ff5bb0); /* Reverse gradient */
+    transform: translateY(-2px); /* Slight lift effect */
+}
