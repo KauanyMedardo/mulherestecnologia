@@ -1,6 +1,7 @@
 header {
     text-align: center;
-    width: 100%; /* Usa toda a largura */
+    width: 100%;
+    /* Usa toda a largura */
     background-color: rgb(173, 58, 145);
     color: azure;
     padding: 20px;
@@ -9,28 +10,34 @@ header {
     display: inline-block;
 }
 
-.meio{
+.meio {
     margin: auto;
     display: block;
-
-}
-.buttonClass {
-    font-size: 2.5em;
-    font-family: Arial, sans-serif;
-    width: 2em;
-    height: auto;
-    border: 1px solid #ee1eb5;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 8px; /* Rounding corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), inset 0px 1px 0px #fbafe3; /* Enhanced shadow */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Softer text shadow */
-    background: linear-gradient(135deg, #ff5bb0, #ef027d); /* Diagonal gradient */
-    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
-    cursor: pointer; /* Pointer on hover */
 }
 
-.buttonClass:hover {
-    background: linear-gradient(135deg, #ef027d, #ff5bb0); /* Reverse gradient */
-    transform: translateY(-2px); /* Slight lift effect */
+.botao-voltar {
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow, transform;
+    background: radial-gradient(100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100%);
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.3em;
+    color: #fff;
+    height: 2.6em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.botao-voltar:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+}
+
+.botao-voltar:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
 }
