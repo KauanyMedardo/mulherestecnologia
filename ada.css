@@ -41,7 +41,7 @@
     background-color: rgb(204, 103, 179) ;
 }
 
-.imagem-chamada{
+.imagem{
     flex: 1 1 45%;
     text-align: center;
     margin-top: 20px;
