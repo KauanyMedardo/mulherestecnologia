@@ -24,9 +24,27 @@ header {
     flex: 1; /* O conteúdo se ajusta para preencher a tela */
 }
 
-.tamanho{
-    width: 2em;
-    height: auto;
+.menu ul {
+    display: flex; /* Alinha os itens em uma linha */
+    justify-content: space-around; /* Espaça igualmente os itens */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.menu li {
+    text-align: center; /* Centraliza o texto embaixo da imagem */
+    width: 20%; /* Define a largura dos itens (ajuste conforme necessário) */
+}
+
+.menu img {
+    width: 100%; /* Faz a imagem preencher 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-width: 200px; /* Ajuste a largura máxima conforme necessário */
+}
+
+.menu p {
+    margin-top: 8px; /* Espaçamento entre a imagem e o nome */
 }
 
 /* Estilizar o menu de navegação */
