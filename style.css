@@ -1,7 +1,10 @@
 body { 
     background-color: ;
 }
-
+header{
+    background-color: blue;
+    color: azure;
+}
 .cabecalho{
     background-color: rgb(214, 125, 166);
     color: rgb(143, 14, 94);
