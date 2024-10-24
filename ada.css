@@ -34,18 +34,7 @@
     text-align: center;
     margin-top: 20px;
 }
-
-
-.menu{
-
-    background-color: rgb(204, 103, 179) ;
 }
-
-.imagem{
-    
-    text-align: center;
-    margin-top: 20px;
-
 
 .imagem img{
     width: 400px;
@@ -67,5 +56,5 @@
     width: 90%;
     margin: 50px auto 50px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    
+
  }
