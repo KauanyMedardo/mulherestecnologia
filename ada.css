@@ -23,11 +23,12 @@
     flex: 1 1 45%;
     padding-right: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .texto p{
     font-size: 1.5em;
-    text-align: justify;
+ 
 }
 .imagem{
     flex: 1 1 45%;
