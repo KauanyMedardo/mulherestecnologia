@@ -1,14 +1,19 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* Fundo suave */
     margin: 0;
-    padding: 20px;
+    padding: 0;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Usa a altura total da tela */
+    justify-content: center;
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
+    width: 100%; /* Usa toda a largura */
 }
 
 #titulo {
@@ -19,13 +24,15 @@ header {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
+    width: calc(100% - 40px); /* Largura total menos margens */
+    max-width: 800px; /* Limita a largura máxima */
 }
 
 img {
     margin: 20px auto;
     display: block;
     border-radius: 15px;
-    max-width: 90%;
+    max-width: 100%; /* Ocupa a largura total */
     height: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -35,8 +42,9 @@ main {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-    margin: 0 auto;
+    width: calc(100% - 40px); /* Largura total menos margens */
+    max-width: 800px; /* Limita a largura máxima */
+    text-align: left;
 }
 
 p {
