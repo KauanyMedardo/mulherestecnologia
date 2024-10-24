@@ -13,6 +13,11 @@ header{
     justify-content: center;
     gap: 30%;
 }
+
+a {
+    text-decoration: none;
+}
+
 .cabecalho{
     background-color: rgb(104, 12, 55);
     color: rgb(228, 207, 220);
