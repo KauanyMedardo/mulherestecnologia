@@ -74,7 +74,7 @@ button{
     border-radius: 8px;
 }
 .chamada{
-    background: #546897;
+    background: #f1f1f1;
     padding-bottom: 3em;
     padding-top: 2em;
     display: flex;
@@ -83,7 +83,7 @@ button{
 }
 .chamada-texto{
     padding-right: 6em;
-    background-color: #526181;
+    background-color: #dbb2d9;
     border: solid;
     border-radius: 30px;
 }
