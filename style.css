@@ -16,7 +16,6 @@ header{
 
 a {
     text-decoration: none;
-    background-color: rgb(204, 103, 179) ;
     color: white;
 }
 
@@ -69,8 +68,8 @@ li{
 }
 
 /*onde vai os codigos abaixo: li ou li a?????? */
-    text-decoration: none;
-    color: ;
+    /* text-decoration: none;
+    color: ; */
 
 
 li a{
@@ -99,6 +98,11 @@ button{
     padding-right: 20px;
     margin-bottom: 20px;
 }
+
+#menu{
+    background-color: rgb(204, 103, 179) ;
+}
+
 .imagem-chamada{
     flex: 1 1 45%;
     text-align: center;
