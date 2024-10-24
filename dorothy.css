@@ -8,3 +8,9 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
 }
+
+.meio{
+    margin: auto;
+    display: block;
+    
+}
