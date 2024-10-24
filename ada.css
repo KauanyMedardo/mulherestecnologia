@@ -57,3 +57,15 @@
     flex-direction: column;
     text-align: left;
  }
+ main{
+    background-color: #d36c9e;
+    border: 3px solid #37061f;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    margin: 20px auto;
+    width: 90%;
+    margin: 50px auto 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+ }
