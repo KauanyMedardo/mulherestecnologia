@@ -86,16 +86,21 @@ button{
     border-radius: 8px;
 }
 .chamada{
-   
-    padding-bottom: 3em;
-    padding-top: 2em;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    flex-wrap: nowrap;
+    padding: 20px;
 }
+
 .chamada-texto{
-    padding-right: 6em;
-    background-color: #e7d9e7;
-    border: solid;
-    border-radius: 30px;
+    flex: 1 1 45%;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.imagem-chamada{
+    flex: 1 1 45%;
+    text-align: center;
+    margin-top: 20px;
 }
