@@ -10,21 +10,24 @@
     justify-content: center;
     gap: 30%;
 }
-.chamada{
+.chamada {
     width: 100%;
     margin: 0 auto;
     border-radius: 15px;
     display: flex;
     flex-wrap: nowrap;
     padding: 20px;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
 }
 
-.texto{
-    flex: 1 1 45%;
+.texto {
+    flex: 1 1 45%; /* Flexível, mas com um mínimo de 45% */
     padding-right: 20px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: center; /* Centraliza o texto */
 }
+
 
 .texto p{
     font-size: 1.5em;
