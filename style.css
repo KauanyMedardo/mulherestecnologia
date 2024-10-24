@@ -1,101 +1,116 @@
+/* Melhorar o visual do body */
 body { 
-    background-color: ;
-}
-header{
-    background-color: rgb(173, 58, 145);
-    color: azure;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 25px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 30%;
+    background-color: #f0f0f5; /* Cor de fundo suave */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-a {
+/* Estilizar o cabeçalho */
+header {
+    background-color: rgb(104, 12, 55);
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilizar o menu de navegação */
+nav {
+    background-color: rgb(173, 58, 145);
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav li a {
     text-decoration: none;
     color: white;
-}
-
-a:visited {
-    color: white;
-}
-
-
-.cabecalho{
-    background-color: rgb(104, 12, 55);
-    color: rgb(228, 207, 220);
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-size: 25px;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 30%;
-}
-
-#titulo {
-    font-size: 30px;
-    text-align: center;
-}
-
-p {
-    
-}
-
-.imgcentro {
+    font-size: 1.2rem;
     display: block;
-    margin: auto;
-    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-nav{
-    padding-top: 0px;
-    padding-bottom: 0px;
-    font-size: ;
+nav li a:hover {
+    transform: scale(1.1); /* Efeito ao passar o mouse */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-li{
-    text-align: ;
-    display: inline-block;
-    /* padding: 0px 50px 0px 10px; */
-    font-size: ;
-    font-family: Verdana ;
-
+/* Imagens dentro da navegação */
+nav li img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
 }
 
-/*onde vai os codigos abaixo: li ou li a?????? */
-    /* text-decoration: none;
-    color: ; */
-
-
-li a{
-    font-size: 50px;
+nav li img:hover {
+    transform: scale(1.05); /* Ampliar um pouco a imagem ao passar o mouse */
 }
 
-button{
+/* Footer mais elegante */
+footer {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: rgb(173, 58, 145);
+}
+
+footer ul li b {
+    color: rgb(173, 58, 145); /* Destaque para informações */
+}
+
+/* Botões */
+button {
     font-size: 16px;
-    color: blue;
-    padding: 2px;
+    color: white;
+    background-color: rgb(173, 58, 145);
+    padding: 10px;
     width: 150px;
     border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
+button:hover {
+    background-color: rgb(104, 12, 55); /* Mudar cor ao passar o mouse */
+}
+
+/* Estilização para títulos e textos */
+#titulo {
+    font-size: 3rem;
+    color: rgb(173, 58, 145);
+}
+
+h1, h2, p {
     text-align: center;
-    list-style-type: none;
-}
-
-.footer-content ul {
-    list-style: none;
-}
-
-.footer-content h2 {
-    font-size: 2rem;
+    margin-bottom: 20px;
 }
