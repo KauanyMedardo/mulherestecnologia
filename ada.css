@@ -60,6 +60,17 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 
  }
- button{
-    text-align: center;
- }
+ button {
+    background-color: #37061f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5c1a2a; 
+}
