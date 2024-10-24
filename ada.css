@@ -47,6 +47,7 @@
     border: 2px solid #37061f;
     border-radius: 10px;
 }
+
  .coluna{
     flex-direction: column;
     text-align: left;
