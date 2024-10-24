@@ -45,8 +45,7 @@
     flex: 1 1 45%;
     text-align: center;
     margin-top: 20px;
-    padding: 20px;
-}
+   padding-right: 10px;
 .imagem img{
     width: 400px;
     height: auto;
