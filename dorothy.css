@@ -5,9 +5,6 @@ header {
     color: azure;
     padding: 20px;
     font-size: 2.5em;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
-    width: calc(100% - 40px); /* Largura total menos margens */
-    max-width: 800px; /* Limita a largura máxima */
 }
