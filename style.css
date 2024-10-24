@@ -24,6 +24,11 @@ header {
     flex: 1; /* O conteúdo se ajusta para preencher a tela */
 }
 
+.tamanho{
+    width: 2em;
+    height: auto;
+}
+
 /* Estilizar o menu de navegação */
 nav {
     background-color: rgb(173, 58, 145);
