@@ -16,7 +16,14 @@ header{
 
 a {
     text-decoration: none;
+    background-color: rgb(204, 103, 179) ;
+    color: white;
 }
+
+a:visited {
+    color: white;
+}
+
 
 .cabecalho{
     background-color: rgb(104, 12, 55);
