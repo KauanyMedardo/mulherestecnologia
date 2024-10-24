@@ -83,3 +83,19 @@ button{
     width: 150px;
     border-radius: 8px;
 }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.footer-content ul {
+    list-style: none;
+}
+
+.footer-content h2 {
+    font-size: 2rem;
+}
