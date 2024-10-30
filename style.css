@@ -141,7 +141,7 @@ footer h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: rgb(173, 58, 145);
-}/* Cor mais clara no hover */
+}
 
 footer ul li b {
     color: rgb(173, 58, 145);
@@ -164,7 +164,7 @@ button:hover {
     background-color: rgb(104, 12, 55);
 }
 
-/* Estilização para títulos e textos */
+/
 #titulo {
     font-size: 3rem;
     color: rgb(219, 196, 213);
