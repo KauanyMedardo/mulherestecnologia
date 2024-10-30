@@ -9,7 +9,7 @@ body {
     flex-direction: column;
 }
 
-/* Estilizar o cabeçalho */
+/* Estilizar o cabeçalh04o */
 header {
     background-color: rgb(104, 12, 55);
     color: white;
@@ -21,6 +21,7 @@ header {
 
 .content {
     flex: 1;
+    color: #fff;
 }
 
 .menu ul {
@@ -33,6 +34,16 @@ header {
 
 .menu li {
     text-align: center; 
+
+    /* Imagens dentro da navegação */
+    nav li img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+    
     width: 20%; 
 }
 
@@ -49,6 +60,16 @@ header {
 nav {
     background-color: rgb(255, 255, 255);
     text-align: center;
+
+    /* Imagens dentro da navegação */
+    nav li img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+    
     padding: 20px 0;
 }
 
@@ -65,6 +86,16 @@ nav li {
 
 nav li a {
     text-decoration: none;
+
+    /* Imagens dentro da navegação */
+    nav li img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        transition: transform 0.3s ease;
+    }
+    
     color: white;
     font-size: 1.2rem;
     display: block;
@@ -110,7 +141,7 @@ footer h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: rgb(173, 58, 145);
-}
+}/* Cor mais clara no hover */
 
 footer ul li b {
     color: rgb(173, 58, 145);
