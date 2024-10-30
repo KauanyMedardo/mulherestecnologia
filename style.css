@@ -1,4 +1,4 @@
-/* Configuração geral do body */
+
 body { 
     background-color: #f0f0f5; /* Cor de fundo suave */
     font-family: 'Arial', sans-serif;
@@ -19,35 +19,33 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Deixar o conteúdo ocupando espaço flexível */
 .content {
-    flex: 1; /* O conteúdo se ajusta para preencher a tela */
+    flex: 1;
 }
 
 .menu ul {
-    display: flex; /* Alinha os itens em uma linha */
-    justify-content: space-around; /* Espaça igualmente os itens */
-    list-style: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove o padding padrão */
-    margin: 0; /* Remove a margem padrão */
+    display: flex; 
+    justify-content: space-around;
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
 }
 
 .menu li {
-    text-align: center; /* Centraliza o texto embaixo da imagem */
-    width: 20%; /* Define a largura dos itens (ajuste conforme necessário) */
+    text-align: center; 
+    width: 20%; 
 }
 
 .menu img {
-    width: 100%; /* Faz a imagem preencher 100% da largura do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    max-width: 200px; /* Ajuste a largura máxima conforme necessário */
+    width: 100%; 
+    height: auto; 
+    max-width: 200px; 
 }
 
 .menu p {
-    margin-top: 8px; /* Espaçamento entre a imagem e o nome */
+    margin-top: 8px; 
 }
 
-/* Estilizar o menu de navegação */
 nav {
     background-color: rgb(173, 58, 145);
     text-align: center;
@@ -299,5 +297,5 @@ button:hover {
 }
 
 .button-mulheres:hover {
-    background-color: #5c1a2a; /* Cor mais clara no hover */
+    background-color: #5c1a2a; 
 }
