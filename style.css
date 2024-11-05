@@ -123,12 +123,12 @@ nav {
     transform: scale(1.05);
 }
 
-/* Footer */
 footer {
     background-color: rgb(50, 50, 50);
     color: #fff;
     padding: 40px;
     text-align: center;
+    margin-top: auto; /* Adiciona espaço acima do footer */
 }
 
 footer h2 {
