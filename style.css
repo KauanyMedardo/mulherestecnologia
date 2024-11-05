@@ -7,6 +7,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-size: 18px; /* Aumenta o tamanho da fonte base */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */
 }
 
 /* Estilização do Cabeçalho */
@@ -50,7 +52,8 @@ main {
 }
 
 .texto p {
-    font-size: 1.5em;
+    font-size: 1.2em; /* Aumenta o tamanho da fonte dos parágrafos */
+    margin-bottom: 15px; /* Adiciona espaçamento entre os parágrafos */
 }
 
 .imagem {
@@ -74,15 +77,15 @@ main {
 }
 
 button, .button-mulheres {
-    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    font-size: 1.2em;
     color: white;
     background-color: #37061f;
-    padding: 15px 30px; /* Aumenta o padding para deixar o botão mais espaçoso */
+    padding: 15px 30px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    min-width: 180px; /* Define uma largura mínima para os botões */
+    min-width: 180px;
 }
 
 button:hover, .button-mulheres:hover {
@@ -172,5 +175,6 @@ footer ul li {
 }
 
 .texto-mulheres p {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
