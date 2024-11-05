@@ -143,10 +143,6 @@ footer ul {
     padding: 0;
 }
 
-footer ul li {
-    margin: 10px 0;
-}
-
 /* Estilos das Divisões para as Outras Seções */
 .cabecalho-mulheres, .chamada-mulheres, .main-mulheres {
     background-color: #e0a1bf;
